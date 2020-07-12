@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #97CADB;
+    height: 100%;
+    background-color: #001B48;
+    /* background: linear-gradient(302.21deg, #001B48 35.16%, #0246B8 113%); */
+}
+
+.hiden {
+    opacity: 0;
+    transition: 1s;
+    /* display: none; */
+}
+
+td {
+    padding-bottom: 24px;
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: #97CADB;
+}
+
+.rus-angl span {
+    margin: 0 5px 0 5px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 65px;
+}
+
+.nav img {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu img {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.menu .user {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.rus-angl {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 39px;
+    border: 2px solid #97CADB;
+    text-transform: uppercase;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/*! стилизация формы */
+.signup-form,
+.login-form {
+    margin: auto;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-form {
+    margin-top: 70px;
+}
+
+.section-form h2 {
+    margin-bottom: 36px;
+}
+
+label {
+    font-size: 24px;
+}
+
+input {
+    margin-left: 20px;
+    width: 344px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #97CADB;
+    color: #97CADB;
+}
+
+input[type="submit"] {
+    border: none;
+    width: 177px;
+    height: 38px;
+    background-color: #018ABE;
+    color: #97CADB;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* .signup-form input[type="submit"]:last-child {
+    margin-left: 123px;
+} */
+
+/* .separation {
+    align-self: center;
+    width: 2px;
+    height: 300px;
+    background: radial-gradient(50% 50% at 50% 50%, #97CADB 0%, rgba(151, 202, 219, 0) 100%);
+} */
+
+input[type="submit"]:hover {
+    background-color: #97CADB;
+    color: #018ABE;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*! popup */
+.popup {
+    position: absolute;
+    left: 1290px;
+    width: 150px;
+    border: 2px solid #97CADB;
+    border-radius: 6px;
+    text-align: center;
+    transition: 1s;
+}
+
+.popup a,
+.popup div {
+    /* margin: auto; */
+    font-size: 18px;
+    color: #97CADB;
+    text-decoration: none;
+
+}
+
+.popup a:hover,
+.popup div:hover {
+
+    color: #018ABE;
+
+
+}
+
+/*! basket */
+.section-basket {
+    margin-top: 70px;
+}
+
+.basket {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid #97CADB;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.product-price input[type='number'] {
+    /* margin-left: 20px; */
+    font-size: 18px;
+    width: 40px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 0 0 20px 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #97CADB;
+    color: #97CADB;
+}
+
+.basket-total {
+    text-align: right;
+    font-size: 24px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/*! стилизация коталога товара */
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.section-goods {
+    margin-top: 70px;
+}
+
+.product {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid #97CADB;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.product-title {
+    padding: 5px;
+    flex-basis: 15%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.product-description {
+    flex-basis: 65%;
+    margin: 18px 0px 12px 0;
+}
+
+.product-description p {
+    margin: 18px 0 12px 0;
+    text-align: justify;
+}
+
+.product-description span {
+    margin-right: 51px;
+}
+
+.product-price {
+    margin: auto;
+    text-align: center;
+    flex-basis: 15%;
+}
+
+.btn {
+    margin: auto;
+    border-radius: 6px;
+    width: 120px;
+    height: 30px;
+    background-color: #018ABE;
+    color: #97CADB;
+    font-weight: 500;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #97CADB;
+    color: #018ABE;
+}
